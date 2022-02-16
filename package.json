@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "app": "src/app.js",
+    "import": "src/import.js",
+    "reader": "src/reader.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acebase": "1.14.0",
+    "deasync": "^0.1.24",
+    "crypto-js": "^4.1.1",
+    "commander": "^9.0.0"
+  }
+}
